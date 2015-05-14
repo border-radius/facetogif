@@ -357,7 +357,7 @@
           button.classList.toggle('clicked');
         }, function (fail) {
           track('streaming', 'failed');
-          console.log(fail);
+          alert(fail);
         });
       }
     }, false);
